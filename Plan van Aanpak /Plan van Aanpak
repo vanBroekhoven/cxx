@@ -1,0 +1,38 @@
+Plan van Aanpak
+
+--Doubly Linked List--
+
+DONE:
+* The library implements a doubly linked list
+* The data within a list node consists of a void pointer and thus the list be-
+comes generic. A generic data structure can contain data of any type.
+* Nodes can be added to the list:
+	◦ at the beginning;
+
+
+NOT DONE:
+*Nodes can be added to the list:
+	◦ at the end;
+	◦ after a given node;
+	◦ before a given node.
+
+* A given node can be deleted from the list.
+* The list can be searched for the first node which contains data that meets
+a specific condition. A function which checks such a condition is called a
+predicate. You can use a function pointer to specify the predicate. See:
+genericFind.c .
+* The list can be searched for the last node which contains data that meets a
+specific condition.
+* The list can be searched for the first node which contains specific data after
+a given node.
+* The list can be searched for the first node which contains specific data before
+a given node.
+* The number of nodes can be retrieved.
+* The list itself can be disposed of properly (without any memory leaks!)
+
+-- Testing --
+All functions should have proper unit tests and you must use a test framework
+(e.g. μnit, see: https://nemequ.github.io/munit/ .) to manage your testing.
+Write the unit tests for a specific function before you write the implementation of
+the function. This is called a test driven approach.
+
