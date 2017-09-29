@@ -29,6 +29,7 @@ void insertAtHead(DoublyLinkedList* listPointer, void *data)
         // set head as address of newNode
         listPointer->head = newNode;
     }
+    // list is not empty
     else
 	{
 		listPointer->head->previous = newNode;
