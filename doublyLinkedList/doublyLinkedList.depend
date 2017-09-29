@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1506708772 source:/home/tim/cxx/doublyLinkedList/doublyLinkedList_lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"doublyLinkedList_lib.h"
+
+1506708465 /home/tim/cxx/doublyLinkedList/doublyLinkedList_lib.h
+	<stdbool.h>
+
+1506708909 source:/home/tim/cxx/doublyLinkedList/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"doublyLinkedList_lib.h"
+	"munit.h"
+
+1506708871 source:/home/tim/cxx/doublyLinkedList/munit.c
+	<stdbool.h>
+	<limits.h>
+	<time.h>
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<setjmp.h>
+	<locale.h>
+	<langinfo.h>
+	<strings.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<windows.h>
+	<io.h>
+	<fcntl.h>
+	"munit.h"
+	"../exact-int/exact-int.h"
+	<assert.h>
+	<limits.h>
+	<unistd.h>
+	<time.h>
+	<time.h>
+	<sys/time.h>
+	<windows.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<CoreServices/CoreServices.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<stdatomic.h>
+
+1506708374 /home/tim/cxx/doublyLinkedList/munit.h
+	<stdarg.h>
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	<string.h>
+
