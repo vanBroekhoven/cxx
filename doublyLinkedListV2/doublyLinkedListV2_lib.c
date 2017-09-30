@@ -32,13 +32,24 @@
 //with void *pointer -> to make list generic
 DllNode *getNewNode(void *data)
 {
-    //allocate memory with malloc
+    //allocate memory for new node with malloc
     //something with links
 
-    //return something
+    //return newNode
 }
 
-/*SECTION 2.1: functions to add nodes to list*/
+/*SECTION 2: function to create new list*/
+//nodig om de library generic te maken
+//leraar zei dat je nieuwe lijsten moet aanmaken in je main
+DoublyLinkedList *getNewList()
+{
+    //allocate memory for new list with malloc
+    //something with links
+
+    //return newList
+}
+
+/*SECTION 3.1: functions to add nodes to list*/
 //add node at the beginning
 void insertAtHead()
 {
@@ -61,7 +72,7 @@ void insertAtTail()
         //set links
 }
 
-/*SECTION 2.2: functions to add nodes to list part2*/
+/*SECTION 3.2: functions to add nodes to list part2*/
 void insertAfterNode()
 {
     //use function getNewNode
@@ -81,7 +92,7 @@ void insertBeforeNode()
     //see function insertAfterNode
 }
 
-/*SECTION 3: function to delete node from list*/
+/*SECTION 4: function to delete node from list*/
 //delete a link with given key
 DllNode *deleteGivenNode()  //function on tutorialsprint: 'struct node* delete(int key)' -> dont know if my function-decleration works
 {
@@ -111,7 +122,7 @@ DllNode *deleteGivenNode()  //function on tutorialsprint: 'struct node* delete(i
     //return current
 }
 
-/*SECTION 4.1: flexible and generic find functions*/
+/*SECTION 5.1: flexible and generic find functions*/
 //find first node which contains specific datatype
 //see example of generic find function: https://bitbucket.org/HR_ELEKTRO/cxx01/raw/master/Programs/genericFind/genericFind.c
 void findFirst()
@@ -125,24 +136,24 @@ void findLast()
     //use a generic find function
 }
 
-/*SECTION 4.2: flexible and generic find functions part2*/
+/*SECTION 5.2: flexible and generic find functions part2*/
 //find FIRST node which contains specific datatype AFTER a given node
 void findFirstAfterNodeX()
 {
-    //combination of section 2.2 & 4.1
-        //use navigation of section 2.2
-        //use generic find function of 4.1
+    //combination of section 3.2 & 5.1
+        //use navigation of section 3.2
+        //use generic find function of 5.1
 }
 
 //find FIRST node which contains specific datatype BEFORE a given node
 void findFirstBeforeNodeX()
 {
-    //combination of section 2.2 & 4.1
-        //use navigation of section 2.2
-        //use generic find function of 4.1
+    //combination of section 3.2 & 5.1
+        //use navigation of section 3.2
+        //use generic find function of 5.1
 }
 
-/*SECTION 5: retrieving the number of nodes*/
+/*SECTION 6: retrieving the number of nodes*/
 //function to count the number of nodes and return the value
 int count()
 {
@@ -150,9 +161,6 @@ int count()
     //look at method 2 & 3 on: http://www.c4learn.com/data-structure/counting-number-of-nodes-in-singly-linked-list/
 }
 
-/*SECTION 7: function to create new list*/
-//Ben niet zeker of deze functie nodig is maar de leraar zei hier iets over tegen iemand in de klas
-//Hij zij dat je nieuwe lijsten moet aanmaken in je main
-
+/*SECTION 7: delete whole list*/
 
 
