@@ -142,6 +142,14 @@ void findFirstBeforeNodeX()
         //use generic find function of 4.1
 }
 
+/*SECTION 5: retrieving the number of nodes*/
+//function to count the number of nodes and return the value
+int count()
+{
+    //http://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
+    //look at method 2 & 3 on: http://www.c4learn.com/data-structure/counting-number-of-nodes-in-singly-linked-list/
+}
+
 /*SECTION 7: function to create new list*/
 //Ben niet zeker of deze functie nodig is maar de leraar zei hier iets over tegen iemand in de klas
 //Hij zij dat je nieuwe lijsten moet aanmaken in je main
