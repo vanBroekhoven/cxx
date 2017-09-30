@@ -12,12 +12,19 @@
 #include <stdbool.h>
 #include "doublyLinkedListV2_lib.h"
 
+/* sources:
+* https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_program_in_c.htm
+* https://gist.github.com/mycodeschool/7429492
+*/
+
 /*function to create new node*/
 //with void *pointer -> to make list generic
 DllNode *getNewNode(void *data)
 {
     //allocate memory with malloc
-    //something
+    //something with links
+
+    //return something
 }
 
 /*functions to add nodes to list*/
@@ -62,6 +69,38 @@ void insertBeforeNode()
     //see function insertAfterNode
 }
 
+/*function to delete node from list*/
+//delete a link with given key
+DllNode *deleteGivenNode()  //function on tutorialsprint: 'struct node* delete(int key)' -> dont know if my function-decleration works
+{
+    //start from the first link
+        //
+    //if list is empty
+        //return NULL
+    //navigate through list
+        //while(current->key != key)
+    //if it is last node
+        //return NULL
+    //else
+        //store reference to current link
+    //move to next link
+
+    //found a match, update the link
+    //if(current == head) {
+        //change first to point to next link
+        // head = head->next;
+    //else
+        //bypass the current link
+    //if(current == last)
+        //change last to point to prev link
+    //else
+        //something??
+
+    //return current
+}
+
+/*function to create new list*/
+//Ben niet zeker of deze functie nodig is
 
 
 
