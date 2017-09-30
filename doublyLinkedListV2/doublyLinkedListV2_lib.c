@@ -12,6 +12,13 @@
 #include <stdbool.h>
 #include "doublyLinkedListV2_lib.h"
 
+/*function to create new node*/
+//with void *pointer -> to make list generic
+DllNode *getNewNode(void *data)
+{
+    //allocate memory with malloc
+    //something
+}
 
 
 
