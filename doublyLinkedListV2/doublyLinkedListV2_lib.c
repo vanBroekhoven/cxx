@@ -12,12 +12,23 @@
 #include <stdbool.h>
 #include "doublyLinkedListV2_lib.h"
 
-/* sources:
+/*
+* IMPORTANT
+* All functions should have a unit-test
+* We must use a framework, like: https://nemequ.github.io/munit/ for this
+* Write unit-test before writing the function itself
+* This is called: 'test driving approach'.
+* The test-functions should be placed in main.c
+*/
+
+
+/*
+* sources:
 * https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_program_in_c.htm
 * https://gist.github.com/mycodeschool/7429492
 */
 
-/*function to create new node*/
+/*SECTION 1: function to create new node*/
 //with void *pointer -> to make list generic
 DllNode *getNewNode(void *data)
 {
@@ -27,7 +38,7 @@ DllNode *getNewNode(void *data)
     //return something
 }
 
-/*functions to add nodes to list*/
+/*SECTION 2.1: functions to add nodes to list*/
 //add node at the beginning
 void insertAtHead()
 {
@@ -50,6 +61,7 @@ void insertAtTail()
         //set links
 }
 
+/*SECTION 2.2: functions to add nodes to list part2*/
 void insertAfterNode()
 {
     //use function getNewNode
@@ -69,7 +81,7 @@ void insertBeforeNode()
     //see function insertAfterNode
 }
 
-/*function to delete node from list*/
+/*SECTION 3: function to delete node from list*/
 //delete a link with given key
 DllNode *deleteGivenNode()  //function on tutorialsprint: 'struct node* delete(int key)' -> dont know if my function-decleration works
 {
@@ -99,8 +111,40 @@ DllNode *deleteGivenNode()  //function on tutorialsprint: 'struct node* delete(i
     //return current
 }
 
-/*function to create new list*/
-//Ben niet zeker of deze functie nodig is
+/*SECTION 4.1: flexible and generic find functions*/
+//find first node which contains specific datatype
+//see example of generic find function: https://bitbucket.org/HR_ELEKTRO/cxx01/raw/master/Programs/genericFind/genericFind.c
+void findFirst()
+{
+    //use a generic find function
+}
+
+//find last node which contains specific datatype
+void findLast()
+{
+    //use a generic find function
+}
+
+/*SECTION 4.2: flexible and generic find functions part2*/
+//find FIRST node which contains specific datatype AFTER a given node
+void findFirstAfterNodeX()
+{
+    //combination of section 2.2 & 4.1
+        //use navigation of section 2.2
+        //use generic find function of 4.1
+}
+
+//find FIRST node which contains specific datatype BEFORE a given node
+void findFirstBeforeNodeX()
+{
+    //combination of section 2.2 & 4.1
+        //use navigation of section 2.2
+        //use generic find function of 4.1
+}
+
+/*SECTION 7: function to create new list*/
+//Ben niet zeker of deze functie nodig is maar de leraar zei hier iets over tegen iemand in de klas
+//Hij zij dat je nieuwe lijsten moet aanmaken in je main
 
 
 
