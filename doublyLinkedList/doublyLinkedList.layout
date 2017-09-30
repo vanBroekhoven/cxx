@@ -9,12 +9,17 @@
 	</File>
 	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="577" topLine="6" />
+			<Cursor1 position="242" topLine="3" />
 		</Cursor>
+		<Folding>
+			<Collapse line="45" />
+			<Collapse line="55" />
+			<Collapse line="67" />
+		</Folding>
 	</File>
-	<File name="doublyLinkedList_lib.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="doublyLinkedList_lib.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="926" topLine="21" />
+			<Cursor1 position="1048" topLine="6" />
 		</Cursor>
 	</File>
 	<File name="doublyLinkedList_lib.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -24,7 +29,7 @@
 	</File>
 	<File name="munit.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="17513" topLine="500" />
+			<Cursor1 position="17513" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
