@@ -5,12 +5,35 @@
 #include "doublyLinkedList_lib.h"
 #include "munit.h"
 
+/* For unit-testing of the program, we use the 'µnit framework'
+*  Link: https://nemequ.github.io/munit/
+*/
+
 static MunitResult
 test_getNewNode(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
-	// here comes test-program
+	/* Initialize variables */
+	int i = 1;
+	char c = 'C';
+
+	/* Generating a new node */
+	DllNode* testNode_i = getNewNode(&i);
+	DllNode* testNode_c = getNewNode(&c);
+
+	/* Check with Integers*/
+	munit_assert_null(testNode_i->previous);
+	munit_assert_null(testNode_i->next);
+	munit_assert_int(*((int*)(testNode_i->data)), ==, i);
+
+	/* Check with Characters*/
+	munit_assert_null(testNode_c->previous);
+	munit_assert_null(testNode_c->next);
+	munit_assert_int(*((char*)(testNode_c->data)), ==, c);
+
+	free(testNode_i);
+	free(testNode_c);
 
     return MUNIT_OK;
 }

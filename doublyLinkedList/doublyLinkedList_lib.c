@@ -5,7 +5,7 @@
 #include "doublyLinkedList_lib.h"
 
 // function to create new node
-// this function can be used by functions insert node at head, tail and others
+// -> this function can be used by functions insert node at head, tail and others
 DllNode* getNewNode(void *data)
 {
     DllNode* newNode = malloc(sizeof(DllNode));
@@ -19,11 +19,9 @@ DllNode* getNewNode(void *data)
 // function to create a node at head
 void insertAtHead(DoublyLinkedList* listPointer, void *data)
 {
-    /*  call function getNewNode & return pointer to newNode (of function getNewNode)
-    *   variable newNode (of function insertAtHead) receives the pointer
-    */
+    // get new node from function getNewNode
     DllNode* newNode = getNewNode(data);
-    // list could be empty:
+    // if list is empty
     if(listPointer->head == NULL)
     {
         // set head as address of newNode
