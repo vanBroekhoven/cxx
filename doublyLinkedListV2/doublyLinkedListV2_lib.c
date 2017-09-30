@@ -20,6 +20,48 @@ DllNode *getNewNode(void *data)
     //something
 }
 
+/*functions to add nodes to list*/
+//add node at the beginning
+void insertAtHead()
+{
+    //use function getNewNode
+    //if list is empty
+        //address head = address tail -> set as address of newNode
+        //return?
+    //list is not empty
+        //create links
+}
+
+void insertAtTail()
+{
+    //use function getNewNode
+    //if list is empty
+        //address head = address tail -> set as address of newNode
+        //return?
+    //while(((address head) != NULL)
+        //go to last node
+        //set links
+}
+
+void insertAfterNode()
+{
+    //use function getNewNode
+    //if list is empty
+        //return false
+    //navigate through list
+    //while(current->key != key)
+        //if it is last node
+            //return false
+        //else
+            //move to next link
+    //create new node
+}
+
+void insertBeforeNode()
+{
+    //see function insertAfterNode
+}
+
 
 
 
