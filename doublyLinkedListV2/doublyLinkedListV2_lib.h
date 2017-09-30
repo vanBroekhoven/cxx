@@ -11,6 +11,21 @@
 
 #include <stdbool.h>
 
-// code
+//typedef nodeStruct
+typedef struct DllNodeTag
+{
+	void * data;
+	struct DllNodeTag * next;
+	struct DllNodeTag * previous;
+} DllNode ;
+
+//typedef listStruct
+typedef struct
+{
+	DllNode * head;
+	DllNode * tail;
+} DoublyLinkedList;
+
+//function declarations
 
 #endif
