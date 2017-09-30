@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1506763494 source:/home/tim/cxx/doublyLinkedListV2/doublyLinkedListV2_lib.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+	"doublyLinkedListV2_lib.h"
+
+1506763739 /home/tim/cxx/doublyLinkedListV2/doublyLinkedListV2_lib.h
+	<stdbool.h>
+
