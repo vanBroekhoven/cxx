@@ -52,7 +52,7 @@ test_getNewNode(const MunitParameter params[], void* user_data) {
     return MUNIT_OK;
 }
 
-/*UNIT-TEST 3: ... */
+/*UNIT-TEST 3: function for inserting node at head*/
 //Testing if ...
 static MunitResult
 test_insertNodeAtHead(const MunitParameter params[], void* user_data) {
@@ -65,7 +65,20 @@ test_insertNodeAtHead(const MunitParameter params[], void* user_data) {
     return MUNIT_OK;
 }
 
-/*UNIT-TEST 4: ... */
+/*UNIT-TEST 4: function for inserting node at tail*/
+//Testing if ...
+static MunitResult
+test_insertNodeAtTail(const MunitParameter params[], void* user_data) {
+	(void) params;
+	(void) user_data;
+
+
+	//free memory
+
+    return MUNIT_OK;
+}
+
+/*UNIT-TEST 5: function for counting nodes*/
 //Testing if ...
 static MunitResult
 test_countNodes(const MunitParameter params[], void* user_data) {
@@ -84,6 +97,7 @@ static MunitTest test_suite_tests[] = {
 	{ (char*) "/getNewNode", test_getNewNode, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
 	{ (char*) "/getNewList", test_getNewList, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
 	{ (char*) "/insertNodeAtHead", test_insertNodeAtHead, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+	{ (char*) "/insertNodeAtTail", test_insertNodeAtTail, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
 	{ (char*) "/countNodes", test_countNodes, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
 	/* Always add this one to tell runner testing is over! */
 	{ NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL }
