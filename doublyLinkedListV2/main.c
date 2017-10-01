@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "doublyLinkedListV2_lib.h"
-// #include "munit.h"  -> 'micro-unit framework for testing code' https://nemequ.github.io/munit/
+#include "munit.h"  -> 'micro-unit framework for testing code' https://nemequ.github.io/munit/
 
 int main()
 {
