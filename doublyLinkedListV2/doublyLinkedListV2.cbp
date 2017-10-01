@@ -38,6 +38,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="munit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="munit.h" />
 		<Extensions>
 			<envvars />
 			<code_completion />
