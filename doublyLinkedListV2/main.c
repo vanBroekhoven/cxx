@@ -62,6 +62,14 @@ static MunitTest test_suite_tests[] = {
 	{ NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL }
 };
 
+/* Main runner that picks which suites we should run */
+static const MunitSuite test_suite = {
+	(char*) "test",
+	test_suite_tests,
+	NULL,
+	1,
+	MUNIT_SUITE_OPTION_NONE
+};
 
 int main(int argc, char* argv[MUNIT_ARRAY_PARAM(argc + 1)])
 {
