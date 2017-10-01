@@ -154,8 +154,8 @@ void findFirstBeforeNodeX()
 }
 
 /*SECTION 6: retrieving the number of nodes*/
-//function to count the number of nodes and return the value
-int count()
+//function to count the number of nodes in list and return the value
+int countNodes()
 {
     //http://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
     //look at method 2 & 3 on: http://www.c4learn.com/data-structure/counting-number-of-nodes-in-singly-linked-list/
