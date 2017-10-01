@@ -19,11 +19,33 @@ test_createNewList(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
-	//??
+	//?? see pseudo-code of UNIT-TEST 2 for better example
 
 	//generate new list
 
 	//??
+
+	//free memory
+
+    return MUNIT_OK;
+}
+
+/*UNIT-TEST 2: function for creation of a node*/
+//Testing if previous & next pointer == NULL
+static MunitResult
+test_createNewNode(const MunitParameter params[], void* user_data) {
+	(void) params;
+	(void) user_data;
+
+	//initialize variables
+	//int i = 1;
+	//char c = 'C';
+
+	//generate new node
+
+	//check with integers
+
+	//check with characters
 
 	//free memory
 
