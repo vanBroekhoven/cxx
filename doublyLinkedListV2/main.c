@@ -37,7 +37,7 @@ test_createNewNode(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
-	//initialize variables
+	//initialize 2 differend type of variables
 	//int i = 1;
 	//char c = 'C';
 
