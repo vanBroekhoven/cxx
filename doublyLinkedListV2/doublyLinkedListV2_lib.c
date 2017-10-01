@@ -28,17 +28,7 @@
 * https://gist.github.com/mycodeschool/7429492
 */
 
-/*SECTION 1: function to create new node*/
-//with void *pointer -> to make list generic
-DllNode *getNewNode(void *data)
-{
-    //allocate memory for new node with malloc
-    //something with links
-
-    //return newNode
-}
-
-/*SECTION 2: function to create new list*/
+/*SECTION 1: function to create new list*/
 //nodig om de library generic te maken
 //leraar zei dat je nieuwe lijsten moet aanmaken in je main
 DoublyLinkedList *getNewList()
@@ -47,6 +37,16 @@ DoublyLinkedList *getNewList()
     //something with links
 
     //return newList
+}
+
+/*SECTION 2: function to create new node*/
+//with void *pointer -> to make list generic
+DllNode *getNewNode(void *data)
+{
+    //allocate memory for new node with malloc
+    //something with links
+
+    //return newNode
 }
 
 /*SECTION 3.1: functions to add nodes to list*/
