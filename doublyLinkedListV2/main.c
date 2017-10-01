@@ -52,7 +52,7 @@ test_createNewNode(const MunitParameter params[], void* user_data) {
     return MUNIT_OK;
 }
 
-int main()
+int main(int argc, char* argv[MUNIT_ARRAY_PARAM(argc + 1)])
 {
     printf("Hello world!\n");
     return 0;
