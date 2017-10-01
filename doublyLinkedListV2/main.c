@@ -15,7 +15,7 @@
 /*UNIT-TEST 1: function for creation of a list*/
 //Testing if head & tail pointer == NULL
 static MunitResult
-test_createNewList(const MunitParameter params[], void* user_data) {
+test_getNewList(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
@@ -33,7 +33,7 @@ test_createNewList(const MunitParameter params[], void* user_data) {
 /*UNIT-TEST 2: function for creation of a node*/
 //Testing if previous & next pointer == NULL
 static MunitResult
-test_createNewNode(const MunitParameter params[], void* user_data) {
+test_getNewNode(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
