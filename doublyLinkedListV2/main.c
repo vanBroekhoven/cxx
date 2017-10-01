@@ -54,6 +54,6 @@ test_createNewNode(const MunitParameter params[], void* user_data) {
 
 int main(int argc, char* argv[MUNIT_ARRAY_PARAM(argc + 1)])
 {
-    printf("Hello world!\n");
-    return 0;
+
+    return munit_suite_main(&test_suite, (void*) "µnit", argc, argv);
 }
