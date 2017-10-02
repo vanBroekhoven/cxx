@@ -162,5 +162,9 @@ int countNodes()
 }
 
 /*SECTION 7: delete whole list*/
-
+//function to delete the entire linked list
+void deleteList()
+{
+    //http://www.geeksforgeeks.org/write-a-function-to-delete-a-linked-list/
+}
 

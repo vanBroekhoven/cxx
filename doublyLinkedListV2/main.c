@@ -19,15 +19,13 @@ test_getNewList(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
-	//?? see pseudo-code of UNIT-TEST 2 for better example
-
-	//generate new list
-
-	//??
-
-	//free memory
+	//stap 1: waardes geven aan ingang variabelen bijv: int i = 1;
+	//stap 2: functie uitvoeren
+	//stap 3: checken of uitgang overeekomt met verwachting
 
     return MUNIT_OK;
+
+	//free memory
 }
 
 /*UNIT-TEST 2: function for creation of a node*/
@@ -37,19 +35,21 @@ test_getNewNode(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
-	//initialize 2 differend type of variables
+	//initialize 2 differend type of variables (dont know if this is necessary)
 	//int i = 1;
 	//char c = 'C';
 
-	//generate new node
+	/* FF CHECKEN OF DIT WEL KLOPT MET WAT ROY ZY */
+    //count number of nodes (with countNodes)
+    //generate new node
 
-	//check with integers
+    //count number of nodes again
 
+	//check with
 	//check with characters
-
-	//free memory
-
     return MUNIT_OK;
+
+    //free memory
 }
 
 /*UNIT-TEST 3: function for inserting node at head*/
@@ -59,6 +59,13 @@ test_insertNodeAtHead(const MunitParameter params[], void* user_data) {
 	(void) params;
 	(void) user_data;
 
+	/* FF CHECKEN OF DIT WEL KLOPT MET WAT ROY ZY */
+
+    //create variables
+
+    //check which node is at head (just a crazy idea)
+
+    //insertNodeAtHead
 
 	//free memory
 
